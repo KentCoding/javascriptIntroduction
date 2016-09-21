@@ -1,0 +1,80 @@
+/*
+Exemplar GCSE Computing
+A452 Practical Investigation
+Herring, Samuel
+*/
+
+/* Main Page Parameters */
+.container{
+	width: 100%;
+}
+
+/* Button Parameters */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgba(69, 192, 73, 0.83);
+    color: white;
+}
+
+/* Traffic Light Parameters */
+.traffic-light {
+	width: 10%;
+	min-width: 150px;
+	margin: 0 auto;
+	border: 3px solid gray;
+	background-color: lightgray;
+}
+
+.traffic-light div { /* Traffic Light Sibling Elements */
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid gray;
+	border-radius: 50%;
+
+}
+
+.traffic-light-pole {
+	width: 5%;
+	min-width: 20px;
+	height: 100%;
+	min-height: 100px;
+	margin: 0 auto;
+	border: 3px solid gray;
+	background-color: gray;
+}
+
+/* Colour Phases */
+.off {
+	background-color: white !important;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}

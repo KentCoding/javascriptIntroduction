@@ -1,0 +1,31 @@
+<!--
+Exemplar GCSE Computing
+A452 Practical Investigation
+Herring, Samuel
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Traffic Light</title>
+        <link rel="stylesheet" type="text/css" href="question_3.css" media="screen" />
+    </head>
+    <body>
+	    <div class="container">
+        <div class="traffic-light">
+            <div class="light red off"></div>
+            <div class="light yellow off"></div>
+            <div class="light green off"></div>
+        </div>
+        <div class="traffic-light-pole"></div>
+	    </div>
+
+        <button class="button" type="button" onclick="lightCycle()">Step Cycle <i class="fa fa-arrow-right fa-fw"></i></button>
+        <button class="button" type="button" onclick="autoCycle()">Auto cycle <i class="fa fa-refresh fa-spin fa-fw"></i></button>
+    </body>
+<!-- START Import JavaScript Modules -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/bc60351932.js"></script>
+    <script type="text/javascript" src="question_3.js"></script>
+<!-- END Import JavaScript Modules -->
+</html>

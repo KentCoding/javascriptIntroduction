@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+	
+<h1>Array Manipulation Script</h1>
+<p>Click the button to manipulate the array using the method listed.</p>
+
+<button onclick="alphabeticalSorter()">Sort Array | Alphabetically</button>
+<button onclick="arrayLength()">Array Length</button>
+
+<p id="sort"></p>
+<p id="length"></p>
+
+<script>
+var products = ["Printer","Tablet","Router","Computer","Gaming Console"];
+document.getElementById("sort").innerHTML = "Array Objects: "+products;
+document.getElementById("length").innerHTML = "Array Length: ?";
+
+function alphabeticalSorter() {
+    products.sort();
+    document.getElementById("sort").innerHTML = "Array Objects: "+products;
+}
+
+function arrayLength() {
+    document.getElementById("length").innerHTML = "Array Length: "+products.length;
+}
+
+</script>
+
+</body>
+</html>
